@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CRS Benchmark Tool</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+<div id="page">
+    <div class="wrapper">
+        <div class="header">
+            <h1>Content Rendering Service Benchmark Tool</h1>
+        </div>
+
+        <form action="/" class="form">
+            <div class="fields">
+                <div class="field">
+                    <label for="company-tag">Company tag:</label>
+                    <input type="text" id="company-tag" placeholder="csdemo">
+                </div>
+                <div class="field">
+                    <label for="template-name">Template name:</label>
+                    <input type="text" id="template-name" placeholder="banner">
+                </div>
+                <div class="field">
+                    <label for="content-id" class="label-content-id" style="padding-left: 20px">Content ID:</label>
+                    <input class="field-content-id" style="width: 260px" type="text" id="content-id" placeholder="ad85f466-0187-4414-a8ce-3a4fbb7c8ec6">
+                </div>
+                <div class="field">
+                    <label class="field-checkbox" for="origin" style="padding-left: 70px">Origin:</label>
+                    <input type="checkbox" id="origin">
+                </div>
+            </div>
+            <div class="buttons">
+                <button>Start</button>
+            </div>
+        </form>
+
+        <div class="output-header">
+            <h1>Output</h1>
+        </div>
+        <div class="blocks">
+            <div class="block">
+                <p class="block-header">Client-side - No CRS</p>
+                <p class="block-content">Lorem ipsum dolor sit amet, ut apeirian ocurreret explicari ius, diam placerat abhorreant et nam, magna dolore feugiat</p>
+            </div>
+            <div class="block">
+                <p class="block-header">Client-side - CRS</p>
+                <p class="block-content">Lorem ipsum dolor sit amet, ut apeirian ocurreret explicari ius, diam placerat abhorreant et nam, magna dolore feugiat</p>
+            </div>
+            <div class="block">
+                <p class="block-header">Server-side - CRS</p>
+                <p class="block-content">Lorem ipsum dolor sit amet, ut apeirian ocurreret explicari ius, diam placerat abhorreant et nam, magna dolore feugiat</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
