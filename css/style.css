@@ -6,7 +6,6 @@ body{
 }
 .wrapper{
     width: 1024px;
-    background-color: #F3F3F3;
     margin: 0 auto;
     padding: 50px;
     font-size: 16px;
@@ -51,7 +50,6 @@ body{
 }
 .block-header{
     border-bottom: 1px solid #000;
-    padding: 10px 10px;
 }
 .block-content{
     padding: 40px 20px 70px 20px;
@@ -60,8 +58,19 @@ body{
     width: 260px;
 }
 .field-checkbox{
-    padding-left: 70px;
+    padding-left: 75px;
 }
 .label-content-id{
     padding-left: 20px;
+}
+.img-right{
+    float: right;
+}
+.p-left{
+    float: left;
+    padding: 10px;
+}
+.block-header{
+    overflow: hidden;
+    border-bottom: 1px solid #000;
 }
