@@ -36,7 +36,7 @@ body{
     justify-content: center;
 }
 .block{
-    width: 33.3%;
+    width: 320px;
     border: 1px solid black;
 }
 .blocks{
